@@ -1,0 +1,37 @@
+.masthead {
+    background: none;
+}
+
+.account-masthead {
+    background: none;
+}
+
+.hero {
+    background: none;
+    text-align: center;
+}
+
+body {
+    background: url(/reach_background.jpg);
+}
+
+@media (min-width: 768px) {
+    [role=main],
+    .main {
+      background: none;
+    }
+  }
+
+.site-footer {
+    background: none;
+}
+
+.btn-main {
+    border-color: #15cec0;
+    background-color: #206b8200!important;
+    background-image: none;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;    
+}

@@ -1,5 +1,6 @@
 .masthead {
     background: none;
+    padding-bottom: 1%;
 }
 
 .account-masthead {
@@ -11,14 +12,56 @@
     text-align: center;
 }
 
+.hero h1 {
+    color: #15cec0;
+}
+
+.hero-main {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.btn-space {
+    margin-right: 25px;
+}
+
+.reach-desc {
+    background: url(/reach_white_bg.jpg);
+}
+
+.reach-main {
+    padding-top: 5%;
+}
+
+.reach-gray-text {
+    color: #9d9d9d;
+}
+
+.reach-green-text {
+    color: #14cec1;
+}
+
+.reach-main h1 {
+    color: #0e1d48;
+}
+
+
+.btn-main-container {
+    padding-top: 5%;
+}
+
 body {
     background: url(/reach_background.jpg);
+}
+
+html,body{
+    height: 100%
 }
 
 @media (min-width: 768px) {
     [role=main],
     .main {
-      background: none;
+      min-height: 500px;
     }
   }
 

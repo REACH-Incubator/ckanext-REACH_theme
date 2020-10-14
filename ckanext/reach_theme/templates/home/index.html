@@ -1,20 +1,39 @@
 {% ckan_extends %}
 
 
-{% block content %}
-<div>
-    <div class="container">
-        {{ self.flash() }}
-    </div>
-    <div role="main" class="hero">
+{% block primary_content %}
+<div role="main" class="hero">
+    <div class="hero-main">
         <div class="container">
             <h1>NEXT GENERATION DATA INCUBATOR</h1>
         </div>
-        <div class="container">
-            <button class="btn btn-primary btn-main" type="button">OPEN CALL</button>
-            <button class="btn btn-primary btn-main" type="button">DATASETS</button>
+        <div class="container btn-main-container">
+            <button class="btn btn-primary btn-main btn-space" type="button">OPEN CALL</button>
+            <a class="btn btn-primary btn-main" type="button" href="/dataset">DATASETS</a>
         </div>
     </div>
 </div>
-
+<div role="main" class="hero reach-desc">
+    <div class="hero-main reach-main">
+        <div class="container">
+            <h1>REACH Incubator</h1>
+            <p class="reach-gray-text">
+                To take a leading position on Data Economy, Europe is placing focus on breaking "data silos", and accessing, sharing and reusing data,
+                still ensuring that this happens in a secured and trusted manner.
+            </p>
+            <p class="reach-gray-text">
+                For that, the European Commission is supporting pilot projects and innovation spaces to allow experimentation on cross-sector 
+                multi-stakeholder data innovation. 
+            </p>
+            <p class="reach-green-text">
+                REACH is a European-wide second-generation incubator for data-fuelled start-ups &amp; SMEs that aims to facilitate the development
+                of trusted and secure innovative solutions based on industrial and personal data.
+            </p>
+            <p class="reach-gray-text">
+                In the REACH Data Catalogue you can find the data samples provided by REACH Data Providers and
+                Digital Innovation Hubs, in order to develop a better application for the incubator. 
+            </p>
+        </div>
+    </div>
+</div>
 {% endblock %}

@@ -62,15 +62,18 @@
 }
 
 body {
-    background: #15cec0;
+    background: url(/reach_background.jpg);
 }
 
 .head-content {
     background: url(/reach_background.jpg);
+    min-height: 100%;
+    margin-bottom: -25px;
 }
 
 html,body{
-    height: 100%
+    height: 100%;
+    margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -84,7 +87,14 @@ html,body{
 .site-footer {
     background: #15cec0;
     color: #ffffff;
+    height: 25px;
+    min-height: 25px;
 }
+
+.push {
+    height: 25px;
+}
+
 
 .site-footer, .site-footer label, .site-footer small,
 .site-footer a {

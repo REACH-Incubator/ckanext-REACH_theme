@@ -3,8 +3,19 @@
     padding-bottom: 1%;
 }
 
+.masthead .navigation .nav-pills li a:hover, .masthead .navigation .nav-pills li.active a {
+    background-color: rgb(0 0 0 / 0%);
+}
 .account-masthead {
     background: none;
+}
+.account-masthead .account .notifications a span.badge,
+.account-masthead .account ul li a {
+    color: #ffffff;
+    background-color: rgb(0 0 0 / 0%);
+}
+.account-masthead .account ul li {
+    border-left: none;
 }
 
 .hero {
@@ -51,6 +62,10 @@
 }
 
 body {
+    background: #15cec0;
+}
+
+.head-content {
     background: url(/reach_background.jpg);
 }
 
@@ -62,11 +77,18 @@ html,body{
     [role=main],
     .main {
       min-height: 500px;
+      background: url(/reach_white_bg.jpg);
     }
   }
 
 .site-footer {
-    background: none;
+    background: #15cec0;
+    color: #ffffff;
+}
+
+.site-footer, .site-footer label, .site-footer small,
+.site-footer a {
+    color: #ffffff;
 }
 
 .btn-main {

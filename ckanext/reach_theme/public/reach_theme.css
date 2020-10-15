@@ -49,12 +49,14 @@
 }
 
 .reach-gray-text {
+    padding-top: 25px;
     color: #9d9d9d;
     font-size: 15pt;
 }
 
 .reach-green-text {
     color: #14cec1;
+    padding-top: 25px;
     font-size: 15pt;
 }
 

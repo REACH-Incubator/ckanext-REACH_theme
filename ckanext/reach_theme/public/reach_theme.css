@@ -25,6 +25,9 @@
 
 .hero h1 {
     color: #15cec0;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;    
 }
 
 .hero-main {
@@ -54,6 +57,10 @@
 
 .reach-main h1 {
     color: #0e1d48;
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30pt;
 }
 
 
@@ -63,6 +70,10 @@
 
 body {
     background: url(/reach_background.jpg);
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    size: 14pt;
 }
 
 .head-content {
@@ -74,6 +85,13 @@ body {
 html,body{
     height: 100%;
     margin: 0;
+}
+
+button{
+    font-family: raleway, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    size: 14pt;
 }
 
 @media (min-width: 768px) {

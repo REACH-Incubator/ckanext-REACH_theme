@@ -19,3 +19,5 @@ class Reach_ThemePlugin(plugins.SingletonPlugin):
         map.connect('/privacy',
                     controller='ckanext.reach_theme.controller:ReachThemeController',
                     action='privacy')
+
+        return map

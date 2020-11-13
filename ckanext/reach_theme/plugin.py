@@ -9,5 +9,13 @@ class Reach_ThemePlugin(plugins.SingletonPlugin):
 
     def update_config(self, config_):
         toolkit.add_template_directory(config_, 'templates')
+        plugins.implements(plugins.IRoutes, inherit=True)
         toolkit.add_public_directory(config_, 'public')
         toolkit.add_resource('fanstatic', 'reach_theme')
+
+    # IRoutes
+
+    def before_map(self, map):
+        map.connect('/privacy',
+                    controller='ckanext.reach_theme.controller:ReachThemeController',
+                    action='privacy')

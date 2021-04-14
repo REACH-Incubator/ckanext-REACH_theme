@@ -3457,8 +3457,8 @@ msgid ""
 "individual users the right to publish datasets from that particular "
 "organisation (e.g. Office of National Statistics).</p> "
 msgstr ""
-" <p>These Data Providers propose their business challenges and offer, secure and controlled access to their proprietary data sets for startups & SMEs to use when targeting these challenges. Data Providers engagement drives and validates the creation of new data value chains and solutions. This opens horizons for new partnerships and creation of new data value chains across diverse cross-sector data and solution providers.
-</p> "
+" <p>These Data Providers propose their business challenges and offer, secure and controlled access to their proprietary data sets for startups & SMEs to use when targeting these challenges. Data Providers engagement drives and validates the creation of new data value chains and solutions. This opens horizons for new partnerships and creation of new data value chains across diverse cross-sector data and solution providers."
+" </p> "
 
 #: ckan/templates/organization/snippets/helper.html:8
 msgid ""

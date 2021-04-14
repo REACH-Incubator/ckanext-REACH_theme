@@ -3374,7 +3374,7 @@ msgstr "Add Organisation"
 
 #: ckan/templates/organization/index.html:20
 msgid "Search organizations..."
-msgstr "Search organisations..."
+msgstr "Search Data Providers..."
 
 #: ckan/templates/organization/index.html:29
 msgid "There are currently no organizations for this site"
@@ -3446,7 +3446,7 @@ msgstr "Datasets in organisation: {group}"
 #: ckan/templates/organization/snippets/help.html:4
 #: ckan/templates/organization/snippets/helper.html:4
 msgid "What are Organizations?"
-msgstr "What are Organisations?"
+msgstr "What are Data Providers?"
 
 #: ckan/templates/organization/snippets/help.html:7
 msgid ""
@@ -3457,12 +3457,8 @@ msgid ""
 "individual users the right to publish datasets from that particular "
 "organisation (e.g. Office of National Statistics).</p> "
 msgstr ""
-" <p>Organisations act like publishing departments for datasets (for example,"
-" the Department of Health). This means that datasets can be published by and"
-" belong to a department instead of an individual user.</p> <p>Within "
-"organisations, admins can assign roles and authorise its members, giving "
-"individual users the right to publish datasets from that particular "
-"organisation (e.g. Office of National Statistics).</p> "
+" <p>These Data Providers propose their business challenges and offer, secure and controlled access to their proprietary data sets for startups & SMEs to use when targeting these challenges. Data Providers engagement drives and validates the creation of new data value chains and solutions. This opens horizons for new partnerships and creation of new data value chains across diverse cross-sector data and solution providers.
+</p> "
 
 #: ckan/templates/organization/snippets/helper.html:8
 msgid ""
@@ -3897,7 +3893,7 @@ msgstr ""
 #: ckan/templates/package/snippets/package_basic_fields.html:70
 #: ckan/templates/snippets/organization.html:23
 msgid "Organization"
-msgstr "Organisation"
+msgstr "Data Provider"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:74
 msgid "No organization"
@@ -4314,7 +4310,7 @@ msgstr "No groups found"
 msgid "{number} organization found for \"{query}\""
 msgid_plural "{number} organizations found for \"{query}\""
 msgstr[0] "{number} organization found for \"{query}\""
-msgstr[1] "{number} organisations found for \"{query}\""
+msgstr[1] "{number} Data Providers found for \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:28
 msgid "No organizations found for \"{query}\""
@@ -4324,7 +4320,7 @@ msgstr "No organisations found for \"{query}\""
 msgid "{number} organization found"
 msgid_plural "{number} organizations found"
 msgstr[0] "{number} organization found"
-msgstr[1] "{number} organisations found"
+msgstr[1] "{number} Data Providers found"
 
 #: ckan/templates/snippets/search_result_text.html:30
 msgid "No organizations found"

@@ -3107,7 +3107,7 @@ msgid "Remove dataset from this group"
 msgstr "Remove dataset from this group"
 
 #: ckan/templates/group/snippets/helper.html:4
-msgid "What are Groups?"
+msgid "What are Categories?"
 msgstr "What are Groups?"
 
 #: ckan/templates/group/snippets/helper.html:8
@@ -3117,10 +3117,7 @@ msgid ""
 "particular theme, or as a very simple way to help people find and search "
 "your own published datasets. "
 msgstr ""
-"You can use CKAN Groups to create and manage collections of datasets. This "
-"could be to catalogue datasets for a particular project or team, or on a "
-"particular theme, or as a very simple way to help people find and search "
-"your own published datasets. "
+"You can use Categories to create and manage collections of datasets. This could be to catalogue datasets for a particular project or team, or on a particular theme, or as a very simple way to help people find and search your own published datasets."
 
 #: ckan/templates/group/snippets/history_revisions.html:10
 #: ckan/templates/package/snippets/history_revisions.html:10
@@ -3466,9 +3463,8 @@ msgid ""
 "datasets. Users can have different roles within an Organization, depending "
 "on their level of authorisation to create, edit and publish. "
 msgstr ""
-" CKAN Organisations are used to create, manage and publish collections of "
-"datasets. Users can have different roles within an Organisation, depending "
-"on their level of authorisation to create, edit and publish. "
+" <p>These Data Providers propose their business challenges and offer, secure and controlled access to their proprietary data sets for startups & SMEs to use when targeting these challenges. Data Providers engagement drives and validates the creation of new data value chains and solutions. This opens horizons for new partnerships and creation of new data value chains across diverse cross-sector data and solution providers."
+" </p> "
 
 #: ckan/templates/organization/snippets/organization_form.html:10
 msgid "My Organization"

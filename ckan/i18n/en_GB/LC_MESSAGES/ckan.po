@@ -904,7 +904,7 @@ msgstr "Data Providers"
 #: ckan/templates/package/read_base.html:20
 #: ckan/templates/revision/diff.html:16 ckan/templates/revision/read.html:84
 msgid "Groups"
-msgstr "Groups"
+msgstr "Categories"
 
 #: ckan/controllers/group.py:307 ckan/controllers/home.py:63
 #: ckan/controllers/package.py:242 ckan/lib/helpers.py:835
@@ -4289,8 +4289,8 @@ msgstr "No datasets found"
 #: ckan/templates/snippets/search_result_text.html:21
 msgid "{number} group found for \"{query}\""
 msgid_plural "{number} groups found for \"{query}\""
-msgstr[0] "{number} group found for \"{query}\""
-msgstr[1] "{number} groups found for \"{query}\""
+msgstr[0] "{number} category found for \"{query}\""
+msgstr[1] "{number} categories found for \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:22
 msgid "No groups found for \"{query}\""
@@ -4299,8 +4299,8 @@ msgstr "No groups found for \"{query}\""
 #: ckan/templates/snippets/search_result_text.html:23
 msgid "{number} group found"
 msgid_plural "{number} groups found"
-msgstr[0] "{number} group found"
-msgstr[1] "{number} groups found"
+msgstr[0] "{number} category found"
+msgstr[1] "{number} categories found"
 
 #: ckan/templates/snippets/search_result_text.html:24
 msgid "No groups found"

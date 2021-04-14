@@ -3107,8 +3107,8 @@ msgid "Remove dataset from this group"
 msgstr "Remove dataset from this group"
 
 #: ckan/templates/group/snippets/helper.html:4
-msgid "What are Categories?"
-msgstr "What are Groups?"
+msgid "What are Groups?"
+msgstr "What are Categories?"
 
 #: ckan/templates/group/snippets/helper.html:8
 msgid ""

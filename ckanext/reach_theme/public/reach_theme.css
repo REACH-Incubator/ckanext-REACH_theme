@@ -60,6 +60,12 @@
     font-size: 15pt;
 }
 
+.reach-white-text {
+    color: #ffffff;
+    padding-top: 25px;
+    font-size: 15pt;
+}
+
 .reach-main h1 {
     color: #0e1d48;
     font-family: raleway, sans-serif;
